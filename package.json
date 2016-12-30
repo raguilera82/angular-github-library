@@ -1,6 +1,6 @@
 {
   "name": "@raguilera82/angular-github-library",
-  "version": "2.0.0",
+  "version": "2.0.1",
   "description": "Github module library",
   "main": "./dist/umd/@raguilera82/angular-github-library.js",
   "module": "./dist/esm/src/index.js",

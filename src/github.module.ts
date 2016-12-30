@@ -1,13 +1,18 @@
-import { NgModule, ModuleWithProviders } from '@angular/core';
+import { ProxyService } from './proxy.service';
+import { AdapterService } from './adapter.service';
+import { ListComponent } from './list.component';
+import { NgModule, ModuleWithProviders, CUSTOM_ELEMENTS_SCHEMA } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { HelloWorldComponent } from './helloWorld.component';
+import { HttpModule } from '@angular/http';
 
 @NgModule({
   declarations: [
-    HelloWorldComponent
+    ListComponent
   ],
-  imports: [CommonModule],
-  exports: [HelloWorldComponent]
+  imports: [CommonModule, HttpModule],
+  providers: [AdapterService, ProxyService],
+  exports: [ListComponent],
+  schemas: [CUSTOM_ELEMENTS_SCHEMA]
 })
 export class GithubModule {
 

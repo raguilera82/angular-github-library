@@ -1,0 +1,1 @@
+{"version":3,"file":"index.js","sourceRoot":"","sources":["../../../src/index.ts"],"names":[],"mappings":"AAAA,cAAc,iBAAiB,CAAC","sourcesContent":["export * from './github.module';\ninterface DecoratorInvocation {\n  type: Function;\n  args?: any[];\n}\n"]}

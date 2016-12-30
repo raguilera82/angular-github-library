@@ -1,6 +1,6 @@
 # angular github library
 [![Build Status](https://travis-ci.org/raguilera82/angular-github-library.svg?branch=master)](https://travis-ci.org/raguilera82/angular-github-library)
-[![npm version](https://badge.fury.io/js/@raguilera82/angular-github-library.svg)](http://badge.fury.io/js/@raguilera82/angular-github-library)
+[![npm version](https://badge.fury.io/js/%40raguilera82%2Fangular-github-library.svg)](https://badge.fury.io/js/%40raguilera82%2Fangular-github-library)
 [![devDependency Status](https://david-dm.org/raguilera82/angular-github-library/dev-status.svg)](https://david-dm.org/raguilera82/angular-github-library#info=devDependencies)
 [![GitHub issues](https://img.shields.io/github/issues/raguilera82/angular-github-library.svg)](https://github.com/raguilera82/angular-github-library/issues)
 [![GitHub stars](https://img.shields.io/github/stars/raguilera82/angular-github-library.svg)](https://github.com/raguilera82/angular-github-library/stargazers)

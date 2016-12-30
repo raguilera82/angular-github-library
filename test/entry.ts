@@ -16,6 +16,8 @@ import { BrowserDynamicTestingModule, platformBrowserDynamicTesting } from '@ang
 
 use(sinonChai);
 
+jasmine.DEFAULT_TIMEOUT_INTERVAL = 10000;
+
 TestBed.initTestEnvironment(BrowserDynamicTestingModule, platformBrowserDynamicTesting());
 
 declare const require: any;

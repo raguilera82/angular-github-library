@@ -14,7 +14,7 @@ describe('ListComponent', () => {
   beforeEach(async(() => {
     TestBed.configureTestingModule({
       declarations: [ ListComponent ],
-      imports: [ HttpModule ]
+      imports: [ HttpModule ],
       providers: [ AdapterService, ProxyService ]
     })
     .compileComponents();
